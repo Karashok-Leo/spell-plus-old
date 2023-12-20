@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_secondary_arcane_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spell-plus:secondary_arcane_essence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "spell-plus:secondary_arcane_legs_enchanted_essence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_secondary_arcane_essence",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spell-plus:secondary_arcane_legs_enchanted_essence"
+    ]
+  },
+  "sends_telemetry_event": false
+}

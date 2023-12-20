@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "spell-plus:item/advanced_frost_legs_enchanted_essence"
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "spell-plus",
+	"version": "${version}",
+	"name": "Spell Plus",
+	"description": "Spell Plus",
+	"authors": [
+		"Leo!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/spell-plus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.karashokleo.spellplus.SpellPlus"
+		],
+		"fabric-datagen": [
+			"net.karashokleo.spellplus.SpellPlusDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"spell_engine": "*",
+		"spell_power": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

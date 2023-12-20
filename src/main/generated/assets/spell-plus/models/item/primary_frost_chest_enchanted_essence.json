@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "spell-plus:item/primary_frost_chest_enchanted_essence"
+  }
+}

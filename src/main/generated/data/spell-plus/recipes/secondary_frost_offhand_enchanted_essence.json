@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "spell-plus:secondary_frost_essence"
+    }
+  },
+  "pattern": [
+    "## ",
+    "###",
+    " ##"
+  ],
+  "result": {
+    "item": "spell-plus:secondary_frost_offhand_enchanted_essence"
+  },
+  "show_notification": true
+}
